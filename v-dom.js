@@ -46,7 +46,7 @@ export const diff = (dom, vnode, parent) => {
       return dom
     }
 
-    // Naive check for number of chilren of vNode and dom
+    // Naive check for number of children of vNode and dom
     if (vnode.children.length !== dom.childNodes.length) {
       dom.appendChild(
         // render only the last child
